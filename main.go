@@ -44,6 +44,14 @@ func run(moduleName string) {
 		_011Errors()
 	case "12":
 		_012Readers()
+	case "13":
+		_013GoRoutines()
+		_013UnbufferedChannels()
+		_013BufferedChannels()
+		_013RangeAndClose()
+		_013Select()
+		_013SelectDefault()
+		_013Mutex()
 	default:
 		panic("Unknown module provided!")
 	}
